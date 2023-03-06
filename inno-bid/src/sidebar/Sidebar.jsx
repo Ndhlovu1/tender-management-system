@@ -14,9 +14,9 @@ export default function Sidebar() {
         <i class="fas fa-comment-alt-exclamation">Notifications</i>
         */}
 
-        <i class="fa-sharp fa-solid fa-circle-info">Help</i>
-        <i class="fa-sharp fa-solid fa-comments">Feedback</i>
-        <i class="fa-solid fa-gear">Settings</i>
+        <li><i class="sidebarListItem fa-sharp fa-solid fa-circle-info">Help</i></li>
+        <li><i class="sidebarListItem fa-sharp fa-solid fa-comments">Feedback</i></li>
+        <li><i class="sidebarListItem fa-solid fa-gear">Settings</i></li>
 
        </ul>
 
