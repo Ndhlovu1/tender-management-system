@@ -8,7 +8,7 @@ export default function Sidebar() {
       <ul className="sidebarList">
 
         {/* <i class="fas fa-home">Home</i>
-        <i class="far fa-layer-group">Tenders</i>
+        <i class="fas fa-layer-group">Tenders</i>
         <i class="fas fa-clock">Tender History</i>
         <i class="fad fa-fax">Resource Center</i>
         <i class="fas fa-comment-alt-exclamation">Notifications</i>

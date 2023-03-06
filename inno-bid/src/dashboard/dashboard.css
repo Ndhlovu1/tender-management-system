@@ -1,4 +1,47 @@
 .dashboard{
     flex: 15;
-    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+
 }
+
+.dashInfo{
+    background:#b7e5ff;
+    width:200px;
+    margin: 60px;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   cursor: pointer;
+}
+
+.dashIcon {
+    font-size: 70px; 
+    color:#572250;
+    /* padding-right: 20px;
+    <div className="dashInfo">
+        <i class="dashIcon fas fa-home"></i>   
+        <span className="postTitle">DASHBOARD</span>
+         */
+}
+
+.itemTitle{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+
+.itemInfo{
+    font-size: 18px;
+    text-align: center;
+
+}
+
+
+
+
