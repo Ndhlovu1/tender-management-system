@@ -15,15 +15,28 @@ export default function Sidebar() {
         */}
 
         <li className="sidebarListItem">
-          <i class="fa-sharp fa-solid fa-circle-info"></i>
-            Help
-          </li>
-        <li><i class="sidebarListItem fa-sharp fa-solid fa-comments"></i>Feedback</li>
-        <li><i class="sidebarListItem fa-solid fa-gear"></i>Settings</li>
+          <i class="nameSideBar fa-sharp fa-solid fa-circle-info fa-2x"></i>
+        </li>
+        <li className='nameSideBar'>HELP</li>
+
+        <li>
+          <i class="nameSideBar sidebarListItem fa-sharp fa-solid fa-comments fa-2x">
+          </i>
+          <li className='nameSideBar'> FEEDBACK</li>
+
+        </li>
+        
+        <li>
+          <i class="nameSideBar sidebarListItem fa-solid fa-gear fa-2x"></i>
+          <li className='nameSideBar'> SETTINGS</li>
+        </li>
 
        </ul>
 
-     
+       <ul className='sidebarListNames'>
+
+       </ul>
+
     </div>
   )
 }

@@ -1,12 +1,12 @@
 .sidebar{
     flex: 3;
     margin: 50px ;
-    padding-bottom: 10px;
+    padding-bottom: 500px;
     background: #efefef;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     
 }
 
@@ -14,18 +14,22 @@
 .sidebarList{
     display: flex;
     flex-direction: column;
-    align-items: start;
     list-style: none;
-    margin-bottom: 30px;
+    margin-bottom: 1px;
 
 }
 
 .sidebarListItem{
    display: inline-block;
    width: 50%;
-   margin-top: 20px;
+   margin-top: 40px;
    cursor: pointer;
+   color:#572250;
 }
+
+
+
+
 
 
 
