@@ -1,10 +1,16 @@
-
+// import Login from "./login/Login";
+// import Dashboard from "./dashboard/Dashboard";
+import Home from "./home/Home";
+// import Topbar from "./topbar/Topbar";
 
 function App() {
   return (
-    <div className="App">
-      InnoBid App
-    </div>
+   <>
+    {/* <Login/> */}
+    {/* <Topbar/> */}
+    {/* <Dashboard/> */}
+    <Home/>
+    </>
   );
 }
 
