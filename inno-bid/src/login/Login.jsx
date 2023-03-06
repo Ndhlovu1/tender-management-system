@@ -2,6 +2,8 @@ import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css"
 import {Button,Card,Form, Container, Row, Col} from "react-bootstrap";
 import "./login.css"
+import { Link } from 'react-router-dom'
+
 
 export default function Login() {
   return (
@@ -33,14 +35,19 @@ export default function Login() {
                         </Form.Group>
                     </Form>
                     
-                    <Button className="mb-3 btn-md " variant="outline-secondary" >Login</Button>
+                    <Button className="mb-3 btn-md " variant="outline-secondary" >  
+                       <Link to="/Dashboard"> Login
+                                </Link>
+                        </Button>
                     <br/>
                     <Card.Text>
-                        <p>Don't have an account? Sign Up</p>
+                        <p>
+                            <Link to="/" > Don't have an account? Sign Up </Link> </p>
                     </Card.Text>
 
                     <Card.Text>
-                        <p>Forgot your password? Reset</p>
+                        <p>
+                           <Link to="/"> Forgot your password? Reset </Link> </p>
                     </Card.Text>
 
                 </Card.Body>

@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 20px;
     
 }
 
@@ -36,7 +37,8 @@
     border-radius: 10px;
     cursor: pointer;
     block-size: 50px;
-    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
     border: none;
 
 }

@@ -19,22 +19,21 @@
     padding-top: 190px;
     padding-left: 100px;
     
-    
 }
 
 a {
     color:#572250;
     font-style: bold;
 }
+
 a:hover{
     color: darkblue;
 }
 
-button:hover {
-    background-color: #572250;
-}
-
-
+button:hover{
+    background-color: #b7e5ff;
+    color: #572250;
+ }
 
 
 

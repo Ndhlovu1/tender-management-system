@@ -8,9 +8,9 @@
 
 .dashInfo{
     background:#b7e5ff;
-    width:200px;
+    width:300px;
     margin: 60px;
-    padding: 80px;
+    padding: 50px;
     border-radius: 10px;
     box-shadow: 10px;
     display: flex;
@@ -30,7 +30,7 @@
 }
 
 .itemTitle{
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 700;
     color: rgb(0, 0, 0);
 }

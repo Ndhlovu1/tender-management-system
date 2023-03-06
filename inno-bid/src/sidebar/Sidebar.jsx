@@ -1,8 +1,10 @@
 import React from 'react'
 import "./sidebar.css"
+import { Link } from "react-router-dom"
 
 export default function Sidebar() {
   return (
+    
     <div className="sidebar">
 
       <ul className="sidebarList">
@@ -32,7 +34,9 @@ export default function Sidebar() {
         </li>
        </ul>
 
-      <button className='signOutBtn' >SIGN OUT</button>
+      <button className='signOutBtn' >
+        <Link to="/" style={{  textDecoration:"none" ,color:"inherit" }}> SIGN OUT</Link>
+      </button>
 
        <ul className='sidebarListNames'>
 
