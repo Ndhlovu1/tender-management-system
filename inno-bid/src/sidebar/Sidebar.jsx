@@ -30,7 +30,6 @@ export default function Sidebar() {
           <i class="nameSideBar sidebarListItem fa-solid fa-gear fa-2x"></i>
           <li className='nameSideBar'> SETTINGS</li>
         </li>
-
        </ul>
 
        <ul className='sidebarListNames'>

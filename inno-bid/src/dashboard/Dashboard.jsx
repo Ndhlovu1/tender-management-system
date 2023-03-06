@@ -38,36 +38,34 @@ export default function Dashboard() {
         <span className="itemInfo">
           See relevant insights about avaliable tenders
         </span>
-
       </div>
-      {/* Below are the dashboard pointers */}
-      <div className="dashInfo">
-      <i class="dashIcon fas fa-home"></i>
-      <br/> <br/> 
-        <span className="itemTitle">RESOURCE CENTER</span>
-        <br/>
-        <span className="itemInfo">
-          See relevant insights about avaliable tenders
-        </span>
-
-      </div> 
       
       {/* Below are the dashboard pointers */}
       <div className="dashInfo">
-        <i class="dashIcon fas fa-bell-exclamation"></i>
+        <i class="dashIcon fas fa-exclamation"></i>
         <br/> <br/> 
-        <span className="itemTitle">NOTIFICATIONS</span>
-        <br/>
-        <span className="itemInfo">
-          See relevant insights about avaliable tenders
-        </span>
+          <span className="itemTitle">NOTIFICATIONS</span>
+          <br/>
+          <span className="itemInfo">
+            See relevant insights about avaliable tenders
+          </span>
+      </div> 
 
-      </div>
+      <div className="dashInfo">
+        <i class="dashIcon fas fa-fax"></i>
+        <br/> <br/> 
+          <span className="itemTitle">RESOURCE CENTER</span>
+          <br/>
+          <span className="itemInfo">
+            See relevant insights about avaliable tenders
+          </span>
+      </div> 
+
       {/* Below are the dashboard pointers */}
       <div className="dashInfo">
-        <i class="dashIcon fas fa-home"></i>
+        <i class="dashIcon fas fa-id-card"></i>
         <br/> <br/> 
-        <span className="itemTitle">DASHBOARD</span>
+        <span className="itemTitle">PROFILE</span>
         <br/>
         <span className="itemInfo">
           See relevant insights about avaliable tenders
