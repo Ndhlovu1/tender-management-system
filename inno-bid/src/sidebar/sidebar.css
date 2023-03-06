@@ -1,7 +1,7 @@
 .sidebar{
     flex: 3;
     margin: 50px ;
-    padding-bottom: 500px;
+    padding-bottom: 300px;
     background: #efefef;
     border-radius: 10px;
     display: flex;
@@ -27,7 +27,24 @@
    color:#572250;
 }
 
+.signOutBtn{
+    margin-top: 170px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #572250;
+    color: #efefef;
+    border-radius: 10px;
+    cursor: pointer;
+    block-size: 50px;
+    padding: 20px;
+    border: none;
 
+}
+
+button:hover{
+   background-color: #b7e5ff;
+   color: #572250;
+}
 
 
 

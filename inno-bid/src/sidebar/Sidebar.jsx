@@ -32,6 +32,8 @@ export default function Sidebar() {
         </li>
        </ul>
 
+      <button className='signOutBtn' >SIGN OUT</button>
+
        <ul className='sidebarListNames'>
 
        </ul>
