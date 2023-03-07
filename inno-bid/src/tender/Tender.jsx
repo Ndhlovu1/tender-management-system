@@ -1,12 +1,15 @@
 import React from 'react'
 import "./tender.css"
+import insu from '../assets/insu.jpg'
+
 
 export default function Tender() {
   return (
     <div className='singleTender' >
       <img 
         className="tenderImage"
-        src="" alt="image"/>
+        src={ insu } 
+        alt="insurance"/>
 
         {/* Info on Person/Company Issueing the tender */}
       <span className="tenderName">Provision of Short-Tem Insurance Brokerage Services</span>
@@ -18,20 +21,48 @@ export default function Tender() {
           <span className="tenderCategory">
             Sector : Insurance
           </span>
-        </div>
-
-        <hr/>
-        {/* The details about the contract */}
-        <span className="tenderType">
+          <br/>
+          <span className="tenderType">
             Area : Khomas Region
           </span>
+          <br/>
         <span className="tenderType">
             Issuer : Khomas City Council
           </span>
+          <br/>
         <span className="tenderType">
             Dates : 01 Jan 2023 - 01 April 2023
           </span>
+        </div>
+        {/* The details about the contract */}
+      
+        <p className="tenderDescription">
+        Namibian Standards Institution has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
+        The tender notice number is , while the TOT Ref Number is 63276045. 
+        Bidders can have further information about the Tender and can request the complete Tender document by Registering on the site.
+        NAMIBIAN STANDARDS INSTITUTION has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
+        The tender notice number is , while the TOT Ref Number is 63276045. 
+        Bidders can have further information about the Tender and can request the complete Tender document by Registering on the site.
 
+        NAMIBIAN STANDARDS INSTITUTION has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
+        The tender notice number is , while the TOT Ref Number is 63276045. 
+        Bidders can have further information about the Tender and can request the complete Tender document by Registering on the site.
+        NAMIBIAN STANDARDS INSTITUTION has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
+        The tender notice number is , while the TOT Ref Number is 63276045. 
+        Bidders can have further information about the Tender and can request the complete Tender document by Registering on the site.
+
+        NAMIBIAN STANDARDS INSTITUTION has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
+        The tender notice number is , while the TOT Ref Number is 63276045. 
+        Bidders can have further information about the Tender and can request the complete Tender document by Registering on the site.
+        NAMIBIAN STANDARDS INSTITUTION has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
+        The tender notice number is , while the TOT Ref Number is 63276045. 
+        Bidders can have further information about the Tender and can request the complete Tender document by Registering on the site.
+        NAMIBIAN STANDARDS INSTITUTION has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
+        The tender notice number is , while the TOT Ref Number is 63276045. 
+        Bidders can have further information about the Tender and can request the complete Tender document by Registering on the site.
+
+
+        </p>
 
 
      

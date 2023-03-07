@@ -7,11 +7,7 @@ export default function Tenders() {
     <div className='tenders'>
        
        <Tender/>
-       <Tender/>
-       <Tender/>
-       <Tender/>
-       <Tender/>
-       <Tender/>
+       
 
 
 
