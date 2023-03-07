@@ -3,6 +3,7 @@ import Login from "./login/Login";
 import Home from "./home/Home";
 //import Topbar from "./topbar/Topbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Tenders from "./tender/Tender";
 
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
         <Route exact path="/" element={ <Login/> } />
 
         <Route path="/Dashboard" element= { <Home/> } />
+
+        <Route path="/Tenders" element={ <Tenders/> } />
 
       </Routes>
 

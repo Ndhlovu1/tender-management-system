@@ -1,6 +1,7 @@
 import React from 'react'
 import "./dashboard.css"
 // import {Button,Card,Form, Container, Row, Col} from "react-bootstrap";
+import { Link } from "react-router-dom"
 
 export default function Dashboard() {
   return (
@@ -18,6 +19,7 @@ export default function Dashboard() {
 
       </div>
 
+      <Link to="/Tenders">
       <div className="dashInfo">
         <i class="dashIcon fas fa-layer-group"></i>
         <br/> <br/> 
@@ -28,6 +30,7 @@ export default function Dashboard() {
         </span>
 
       </div>
+      </Link>
 
       <div className="dashInfo">
         <i class="dashIcon fas fa-clock"></i>
