@@ -3,7 +3,7 @@ import Login from "./login/Login";
 import Home from "./home/Home";
 //import Topbar from "./topbar/Topbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Tenders from "./tender/Tender";
+import Tenders from "./tenders/Tenders";
 
 
 function App() {
