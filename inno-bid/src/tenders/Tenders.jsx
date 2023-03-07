@@ -5,7 +5,7 @@ import Tender from '../tender/Tender'
 export default function Tenders() {
   return (
     <div className='tenders'>
-       
+
        <Tender/>
        <Tender/>
        <Tender/>

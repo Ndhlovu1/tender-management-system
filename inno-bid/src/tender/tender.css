@@ -1,7 +1,8 @@
 .singleTender{
     width: 375px;
-    margin: 0px 25px 240px 25px;
+    margin: 0px 25px 24px 25px;
     background: rgba(182, 173, 173, 0.156);
+    margin-top: 50px;
 
 
 }
@@ -11,6 +12,7 @@
     height: 280px;
     border-radius: 7px;
     object-fit: cover;
+    
 
 }
 
@@ -49,7 +51,7 @@
     font-size: 14px;
     color :#444;
     line-height: 24px;
-    margin-top: 5px;
+    margin-top: 15px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
