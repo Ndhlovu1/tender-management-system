@@ -2,17 +2,20 @@ import React from 'react'
 import "./topbar.css" 
 import logo from '../assets/logo.png'
 import {Nav} from "react-bootstrap";
+import { Link } from 'react-router-dom';
 
 export default function Topbar() {
   return (
     <>
     <Nav>
     <div className="top">
+        <Link to="Dashboard/">
         <div className="topLeft">
             <img 
             className="topLogo"
             src={ logo } alt="logo"/>
         </div>
+        </Link>
 
         <div className="topCenter">
             <ul className='topListCenter'>
