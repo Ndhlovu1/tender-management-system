@@ -1,14 +1,17 @@
 import React from 'react'
 import "./tender.css"
-import insu from '../assets/insu.jpg'
-
+// // import insu from '../assets/insu.jpg'
 // import oil from '../assets/oil.jpeg'
+
 // import road from '../assets/road.jpg'
 // import tailor from '../assets/tailor.jpg'
 // import teaching from '../assets/teaching.jpg'
-// import handling from '../assets/handling.jpg'
+
+import handling from '../assets/handling.jpg'
+
 // import fishing from '../assets/fishing.jpg'
 // import health from '../assets/health.jpg'
+
 
 // import { insu ,oil,road, tailor, teaching, handling, fishing, health } from "../assets/"
 
@@ -18,18 +21,18 @@ export default function Tender() {
     <div className='singleTender' >
       <img 
         className="tenderImage"
-        src={ insu }  
+        src={ handling } 
         alt="insurance"/>
 
         {/* Info on Person/Company Issueing the tender */}
-      <span className="tenderName">Provision of Short-Tem Insurance Brokerage Services</span>
+      <span className="tenderName">Ground Handling Services HKIA </span>
 
       {/* Area, Issuer, Bid and Save */}
 
       <div className="tenderInfo">
         <div className="tenderCategories">
           <span className="tenderCategory">
-            Sector : Insurance
+            Sector : Travel and Aerospace
           </span>
           <br/>
           <span className="tenderType">
@@ -37,7 +40,7 @@ export default function Tender() {
           </span>
           <br/>
         <span className="tenderType">
-            Issuer : Khomas City Council
+            Issuer : Airports Company Namibia
           </span>
           <br/>
         <span className="tenderType">
