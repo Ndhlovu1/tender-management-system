@@ -1,5 +1,6 @@
 import React from 'react'
-import Sidebar from '../sidebar/Sidebar'
+// import Sidebar from '../sidebar/Sidebar'
+import Sidebar2 from '../sidebar/Sidebar2'
 import Tenders from '../tenders/Tenders'
 import Topbar from '../topbar/Topbar'
 import "./tenderDisplay.css"
@@ -9,7 +10,7 @@ export default function TenderDisplay() {
     <>
     <Topbar/>
     <div className="tenderDisplay">
-        <Sidebar/>
+        <Sidebar2/>
         <Tenders/>
     
 

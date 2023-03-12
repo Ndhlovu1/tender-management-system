@@ -1,0 +1,79 @@
+.sideBar2{
+    flex: 3;
+    margin: 50px ;
+    padding-top: 20px;
+    padding-bottom: 300px;
+    /* background: #efefef; */
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+
+.sideBarInfo{   
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    cursor:pointer;
+}
+
+
+.itemTitle1{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 105px;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+
+}
+
+.dashIcon2{
+    display: inline-block;
+    width: 50%;
+    cursor: pointer;
+    color:#572250;
+    font-size: 40px;
+}
+
+
+/* The settings sidebar */
+.sideBarInfo2{
+    display: flex;
+    list-style: none;
+    cursor:pointer;
+    background: #efefef;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 90px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+
+.dashIconS{
+    display: inline-block;
+    width: 50%;
+    cursor: pointer;
+    color:#572250;
+    font-size: 40px;
+    margin-bottom: 50px;
+
+}
+
+
+.itemTitle2{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin-top: 11px;
+    
+}
+
+
+
