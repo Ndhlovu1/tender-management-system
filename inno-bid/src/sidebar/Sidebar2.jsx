@@ -1,5 +1,6 @@
 import React from 'react'
 import "./sidebar2.css"
+import { Link } from "react-router-dom"
 
 export default function Sidebar2() {
   return (
@@ -50,6 +51,11 @@ export default function Sidebar2() {
 
             <i class="dashIconS fa-sharp fa-solid fa-comments"></i>
             <span className="itemTitle2">FEEDBACK</span>
+
+            <br/><br/>
+            <button className='signOutBtnDash' >
+                <Link to="/" style={{  textDecoration:"none" ,color:"inherit" }}> SIGN OUT</Link>
+            </button>
 
 
         </div>

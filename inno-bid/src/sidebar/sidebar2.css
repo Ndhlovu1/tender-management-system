@@ -75,5 +75,26 @@
     
 }
 
+.signOutBtnDash{
+
+    margin-top: 10px;
+    background-color: #572250;
+    color: #efefef;
+    border-radius: 10px;
+    cursor: pointer;
+    block-size: 50px;
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border: none;
+
+}
+
+button:hover{
+   background-color: #b7e5ff;
+   color: #572250;
+}
+
+
 
 
