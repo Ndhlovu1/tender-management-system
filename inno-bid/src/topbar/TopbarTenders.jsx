@@ -20,8 +20,8 @@ export default function Topbar() {
         <div className="topCenter">
             <ul className='topListCenter'>
                 <li>
-                    <h3 className="topListItem1">DASHBOARD</h3>
-                    <p className="topListP">Welcome John, access your app insights here </p>
+                    <h3 className="topListItem1">TENDERS</h3>
+                    <p className="topListP">View all available tender offers here </p>
                 </li>
                                
                 
