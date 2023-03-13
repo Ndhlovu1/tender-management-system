@@ -5,6 +5,7 @@ import Home from "./home/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Tenders from "./tenders/Tenders";
 import TenderDisplay from "./tenderdisplay/TenderDisplay";
+import Register from "./registration/Register";
 
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
         <Route path="/Dashboard" element= { <Home/> } />
 
         <Route path="/Tenders" element={ <TenderDisplay/> } />
+
+        <Route path="/Register" element={ <Register/> } />
 
       </Routes>
 

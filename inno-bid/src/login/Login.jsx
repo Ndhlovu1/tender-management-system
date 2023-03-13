@@ -42,7 +42,7 @@ export default function Login() {
                     <br/>
                     <Card.Text>
                         <p>
-                            <Link to="/" > Don't have an account? Sign Up </Link> </p>
+                            <Link to="/Register" > Don't have an account? Sign Up </Link> </p>
                     </Card.Text>
 
                     <Card.Text>
