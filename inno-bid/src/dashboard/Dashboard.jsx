@@ -8,6 +8,7 @@ export default function Dashboard() {
     <>
    
     <div className='dashboard'>
+    <Link to="/Dashboard"> 
       <div className="dashInfo">
         <i class="dashIcon fas fa-home"></i>
         <br/> <br/> 
@@ -16,8 +17,8 @@ export default function Dashboard() {
         <span className="itemInfo">
           See relevant insights about avaliable tenders
         </span>
-
       </div>
+      </Link>
 
       <Link to="/Tenders">
       <div className="dashInfo">

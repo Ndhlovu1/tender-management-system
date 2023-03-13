@@ -5,18 +5,22 @@ import { Link } from "react-router-dom"
 export default function Sidebar2() {
   return (
     <>
+    
     <div className="sideBar2">
+    <Link to="/Dashboard">
         <div className="sideBarInfo">
             <i class="dashIcon2 fas fa-home"></i>
             <span className="itemTitle1">DASHBOARD</span>
         </div>
+    </Link>
 
 
-
+    <Link to="/Tenders">
         <div className="sideBarInfo">
             <i class="dashIcon2 fas fa-layer-group"></i>
             <span className="itemTitle1">TENDERS</span>
         </div>
+    </Link>
         
 
         <div className="sideBarInfo">
