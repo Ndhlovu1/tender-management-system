@@ -1,6 +1,8 @@
 import React from 'react'
 import "./tender.css"
 import insu from '../assets/insu.jpg'
+import { Link } from 'react-router-dom'
+
 
 // import oil from '../assets/oil.jpeg'
 // import road from '../assets/road.jpg'
@@ -22,8 +24,9 @@ export default function Tender() {
         alt="insurance"/>
 
         {/* Info on Person/Company Issueing the tender */}
-      <span className="tenderName">Provision of Short-Tem Insurance Brokerage Services</span>
-
+      <Link to="/Single-Tender">
+        <span className="tenderName">Provision of Short-Tem Insurance Brokerage Services</span>
+      </Link>
       {/* Area, Issuer, Bid and Save */}
 
       <div className="tenderInfo">
