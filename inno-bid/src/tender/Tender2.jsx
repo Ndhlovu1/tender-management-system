@@ -11,10 +11,12 @@ export default function Tender() {
         src={ oil } 
         alt="insurance"/>
 
-        {/* Info on Person/Company Issueing the tender */}
-      <span className="tenderName">
-        Applications of Oil Refinery Services
-      </span>
+      {/* Info on Person/Company Issueing the tender */}
+      <Link to="/Oil-Tender" >
+        <span className="tenderName">
+          Applications of Oil Refinery Services
+        </span>
+      </Link>  
 
       {/* Area, Issuer, Bid and Save */}
 

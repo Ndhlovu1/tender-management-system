@@ -12,9 +12,11 @@ export default function Tender() {
         alt="insurance"/>
 
         {/* Info on Person/Company Issueing the tender */}
-      <span className="tenderName">
-        Ground Handling Services HKIA 
-      </span>
+      <Link to="/Airports-Tender" >
+        <span className="tenderName">
+          Ground Handling Services HKIA 
+        </span>
+      </Link>
 
       {/* Area, Issuer, Bid and Save */}
 

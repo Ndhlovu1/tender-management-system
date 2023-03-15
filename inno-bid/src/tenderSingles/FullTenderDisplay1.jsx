@@ -9,10 +9,12 @@ export default function FullTenderDisplay() {
     <div className="fullTenderDisplay" >
 
       <div className="singleTenderWrapper">
-
-        <img  src={ teaching } 
-              alt="Insurance Logo" 
-              className="singleTenderImg" />
+        
+        <center>
+          <img  src={ teaching } 
+                alt="Insurance Logo" 
+                className="singleTenderImg" />
+        </center>
 
         <h1 className="singleTenderTitle">
           Sustained Long-Term Computational Education Services

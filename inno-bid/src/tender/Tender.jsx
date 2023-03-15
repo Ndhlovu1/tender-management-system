@@ -12,7 +12,7 @@ export default function Tender() {
         alt="insurance"/>
 
         {/* Info on Person/Company Issueing the tender */}
-      <Link to="/Tender/01">
+      <Link to="/Insurance-Tender">
         <span className="tenderName">Provision of Short-Tem Insurance Brokerage Services</span>
       </Link>
       {/* Area, Issuer, Bid and Save */}
