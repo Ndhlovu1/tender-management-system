@@ -1,6 +1,7 @@
 import React from 'react'
 import "./tenderSingles.css"
 import insu from '../assets/insu.jpg'
+import { Link } from "react-router-dom"
 
 export default function FullTenderDisplay() {
   return (
@@ -68,7 +69,12 @@ export default function FullTenderDisplay() {
 
         </p>
 
-
+    
+      <button className='applyBtn'>
+        <Link to="/" style={{  textDecoration:"none" ,color:"inherit" }}> 
+          APPLY 
+        </Link>
+      </button>
 
       </div>
 
