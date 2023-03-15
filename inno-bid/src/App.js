@@ -20,7 +20,9 @@ function App() {
 
         <Route path="/Tenders" element={ <TenderDisplay/> } />
 
-        <Route path="/Single-Tender" element={ <TenderSinglePost/> } />
+        <Route path="/Tender/01" element={ <TenderSinglePost/> } />
+
+
 
         <Route path="/Register" element={ <Register/> } />
 

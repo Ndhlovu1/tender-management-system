@@ -3,18 +3,6 @@ import "./tender.css"
 import insu from '../assets/insu.jpg'
 import { Link } from 'react-router-dom'
 
-
-// import oil from '../assets/oil.jpeg'
-// import road from '../assets/road.jpg'
-// import tailor from '../assets/tailor.jpg'
-// import teaching from '../assets/teaching.jpg'
-// import handling from '../assets/handling.jpg'
-// import fishing from '../assets/fishing.jpg'
-// import health from '../assets/health.jpg'
-
-// import { insu ,oil,road, tailor, teaching, handling, fishing, health } from "../assets/"
-
-
 export default function Tender() {
   return (
     <div className='singleTender' >
@@ -24,7 +12,7 @@ export default function Tender() {
         alt="insurance"/>
 
         {/* Info on Person/Company Issueing the tender */}
-      <Link to="/Single-Tender">
+      <Link to="/Tender/01">
         <span className="tenderName">Provision of Short-Tem Insurance Brokerage Services</span>
       </Link>
       {/* Area, Issuer, Bid and Save */}

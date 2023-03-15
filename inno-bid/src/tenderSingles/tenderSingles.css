@@ -7,6 +7,7 @@
     background: rgba(182, 173, 173, 0.156);
     padding-bottom: 50px;
     margin-bottom: 100px;
+    flex-wrap: wrap;
    
 }
 

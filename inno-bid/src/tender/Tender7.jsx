@@ -1,18 +1,7 @@
 import React from 'react'
 import "./tender.css"
-// import insu from '../assets/insu.jpg'
-// import oil from '../assets/oil.jpeg'
-
 import road from '../assets/road.jpg'
-// import tailor from '../assets/tailor.jpg'
-// import teaching from '../assets/teaching.jpg'
-// import handling from '../assets/handling.jpg'
-// import fishing from '../assets/fishing.jpg'
-// import health from '../assets/health.jpg'
-
-
-// import { insu ,oil,road, tailor, teaching, handling, fishing, health } from "../assets/"
-
+import { Link } from 'react-router-dom'
 
 export default function Tender() {
   return (
@@ -23,7 +12,9 @@ export default function Tender() {
         alt="insurance"/>
 
         {/* Info on Person/Company Issueing the tender */}
-      <span className="tenderName">Request for road repair tender</span>
+      <span className="tenderName">
+        Request for road repair tender
+      </span>
 
       {/* Area, Issuer, Bid and Save */}
 

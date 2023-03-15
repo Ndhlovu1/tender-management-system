@@ -1,20 +1,7 @@
 import React from 'react'
 import "./tender.css"
-// // import insu from '../assets/insu.jpg'
-// import oil from '../assets/oil.jpeg'
-
-// import road from '../assets/road.jpg'
-// import tailor from '../assets/tailor.jpg'
-// import teaching from '../assets/teaching.jpg'
-// import handling from '../assets/handling.jpg'
-
+import { Link } from 'react-router-dom'
 import fishing from '../assets/fishing.jpg'
-
-// import health from '../assets/health.jpg'
-
-
-// import { insu ,oil,road, tailor, teaching, handling, fishing, health } from "../assets/"
-
 
 export default function Tender() {
   return (
@@ -53,24 +40,24 @@ export default function Tender() {
         Namibian Standards Institution has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
         The tender notice number is , while the TOT Ref Number is 63276045. 
         Bidders can have further information about the Tender and can request the complete Tender document by Registering on the site.
-        NAMIBIAN STANDARDS INSTITUTION has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
+        Namibian Standards Institution has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
         The tender notice number is , while the TOT Ref Number is 63276045. 
         Bidders can have further information about the Tender and can request the complete Tender document by Registering on the site.
 
-        NAMIBIAN STANDARDS INSTITUTION has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
+        Namibian Standards Institution has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
         The tender notice number is , while the TOT Ref Number is 63276045. 
         Bidders can have further information about the Tender and can request the complete Tender document by Registering on the site.
-        NAMIBIAN STANDARDS INSTITUTION has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
+        Namibian Standards Institution has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
         The tender notice number is , while the TOT Ref Number is 63276045. 
         Bidders can have further information about the Tender and can request the complete Tender document by Registering on the site.
 
-        NAMIBIAN STANDARDS INSTITUTION has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
+        Namibian Standards Institution has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
         The tender notice number is , while the TOT Ref Number is 63276045. 
         Bidders can have further information about the Tender and can request the complete Tender document by Registering on the site.
-        NAMIBIAN STANDARDS INSTITUTION has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
+        Namibian Standards Institution has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
         The tender notice number is , while the TOT Ref Number is 63276045. 
         Bidders can have further information about the Tender and can request the complete Tender document by Registering on the site.
-        NAMIBIAN STANDARDS INSTITUTION has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
+        Namibian Standards Institution has floated a tender for Insurance Services. The project location is Namibia and the tender is closing on 11 Mar 2022. 
         The tender notice number is , while the TOT Ref Number is 63276045. 
         Bidders can have further information about the Tender and can request the complete Tender document by Registering on the site.
 
