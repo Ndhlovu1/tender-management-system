@@ -68,6 +68,10 @@ yarn start
 ![Screenshot from 2023-03-16 06-21-27](https://user-images.githubusercontent.com/46927702/225514775-3bc8c4a3-7b9b-4fa5-9509-0d58d509541d.png)
 ![Screenshot from 2023-03-16 06-21-31](https://user-images.githubusercontent.com/46927702/225514813-71ba8eef-5108-498d-87cc-63e372d074f9.png)
 
+### SINGLE TENDER DESCRIPTION PAGE
+![Screenshot from 2023-03-16 06-21-44](https://user-images.githubusercontent.com/46927702/225514983-bb46e6a4-460b-43d9-9d0a-34c5377bf5b2.png)
+![Screenshot from 2023-03-16 06-21-51](https://user-images.githubusercontent.com/46927702/225515006-9ea7a54a-12a6-4894-8905-de21565376de.png)
+
 
 
 
