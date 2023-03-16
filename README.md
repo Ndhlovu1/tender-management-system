@@ -42,6 +42,12 @@ rfc -> (enter on keyboard)
 ```shell
 yarn add react-router-dom
 ```
+##### Start the Project
+```shell
+yarn start
+```
+
+
 
 
 
