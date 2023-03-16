@@ -59,6 +59,10 @@ yarn start
 ### REGISTRATION SCREEN
 ![Screenshot from 2023-03-16 06-20-44](https://user-images.githubusercontent.com/46927702/225514521-7378693a-2170-44a0-87a6-6a52e4acfc46.png)
 
+### DASHBOARD SCREEN
+![Screenshot from 2023-03-![Screenshot from 2023-03-16 06-21-03](https://user-images.githubusercontent.com/46927702/225514610-bce6e32b-3178-4e8b-bb94-9cea3bee82e9.png)
+16 06-20-57](https://user-images.githubusercontent.com/46927702/225514574-ae643475-8ae9-4a6e-8c0d-11401463d992.png)
+
 
 
 
