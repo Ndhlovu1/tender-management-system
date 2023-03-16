@@ -1,6 +1,12 @@
 # A tender management system front-end with react
 This project assumes you have all npm and npx and yam dependencies installed
 
+# Project Configurations
+##### These steps can be ignored and simply run the command below
+```shell 
+yarn start
+```
+
 ##### Create the React App
 ```terminal
 npx create-react-app .
