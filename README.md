@@ -1,5 +1,8 @@
 # A tender management system front-end with react
 This project assumes you have all npm and npx and yam dependencies installed
+
+## Greetings from Ndhlovu1
+
 ### The Project Screenshots are at the bottom of this page
 
 # Project Configurations
